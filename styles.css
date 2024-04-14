@@ -1,0 +1,57 @@
+body {
+    font-family: "Times New Roman",Times,serif;
+    background-color:#ffccff;
+    margin:0;
+    padding:0;
+
+
+}
+#calcu{
+    border: 2px solid #000;
+    margin:50px auto;
+    border-radius:34px;
+
+
+}
+#calcu td{
+    
+    padding:10px;
+    text-align:center;
+
+}
+#result{
+    padding:10px;
+    font-size:24px;
+    font-weight:bold;
+    border-radius: 5px;
+    border:2px solid black;
+    width:100%;
+
+
+
+}
+input[type="button"]{
+    width:100%;
+    padding:20px 10px;
+    background-color: #4CAF50;
+    color:white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight:bold;
+    font-size:34px;
+    cursor:pointer;
+    border-radius:70px;
+    border:none;   
+}
+input[type="button"][value="c"]{
+    background-color:red;
+    width:50px;    
+}
+input[type="button"][value="="]{
+    background-color: #9437ef;
+
+}
+input[type="button"][value="C"]{
+    background-color: #b233b2;
+
+}
+
